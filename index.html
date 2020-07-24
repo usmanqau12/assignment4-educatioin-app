@@ -7,10 +7,128 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel='stylesheet' href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+
+
+
+  <style>
+	body {font-family: Arial, Helvetica, sans-serif;}
+	* {box-sizing: border-box;}
+	
+	/* Full-width input fields */
+	input[type=text], input[type=password] {
+	  width: 100%;
+	  padding: 15px;
+	  margin: 5px 0 22px 0;
+	  display: inline-block;
+	  border: none;
+	  background: #f1f1f1;
+	}
+	
+	/* Add a background color when the inputs get focus */
+	input[type=text]:focus, input[type=password]:focus {
+	  background-color: #ddd;
+	  outline: none;
+	}
+	
+	/* Set a style for all buttons */
+	button {
+	  background-color: #4CAF50;
+	  color: white;
+	  padding: 14px 20px;
+	  margin: 8px 0;
+	  border: none;
+	  cursor: pointer;
+	  width: 100%;
+	  opacity: 0.9;
+	}
+	
+	button:hover {
+	  opacity:1;
+	}
+	
+	/* Extra styles for the cancel button */
+	.cancelbtn {
+	  padding: 14px 20px;
+	  background-color: #f44336;
+	}
+	
+	/* Float cancel and signup buttons and add an equal width */
+	.cancelbtn, .signupbtn {
+	  float: left;
+	  width: 50%;
+	}
+	
+	/* Add padding to container elements */
+	.container {
+	  padding: 16px;
+	}
+	
+	/* The Modal (background) */
+	.modal {
+	  display: none; /* Hidden by default */
+	  position: fixed; /* Stay in place */
+	  z-index: 1; /* Sit on top */
+	  left: 0;
+	  top: 0;
+	  width: 100%; /* Full width */
+	  height: 100%; /* Full height */
+	  overflow: auto; /* Enable scroll if needed */
+	  background-color: #474e5d;
+	  padding-top: 50px;
+	}
+	
+	/* Modal Content/Box */
+	.modal-content {
+	  background-color: #fefefe;
+	  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+	  border: 1px solid #888;
+	  width: 80%; /* Could be more or less, depending on screen size */
+	}
+	
+	/* Style the horizontal ruler */
+	hr {
+	  border: 1px solid #f1f1f1;
+	  margin-bottom: 25px;
+	}
+	 
+	/* The Close Button (x) */
+	.close {
+	  position: absolute;
+	  right: 35px;
+	  top: 15px;
+	  font-size: 40px;
+	  font-weight: bold;
+	  color: #f1f1f1;
+	}
+	
+	.close:hover,
+	.close:focus {
+	  color: #f44336;
+	  cursor: pointer;
+	}
+	
+	/* Clear floats */
+	.clearfix::after {
+	  content: "";
+	  clear: both;
+	  display: table;
+	}
+	
+	/* Change styles for cancel button and signup button on extra small screens */
+	@media screen and (max-width: 300px) {
+	  .cancelbtn, .signupbtn {
+		 width: 100%;
+	  }
+	}
+	</style>
+
 
 </head>
 <body>
   <div>
+	
 
 
 
@@ -272,107 +390,1016 @@
 	<div class="courses">
 		<div class="section_background parallax-window" data-parallax="scroll" data-image-src="images/courses_background.jpg" data-speed="0.8"></div>
 		<div class="container">
+
+
 			<div class="row">
 				<div class="col">
 					<div class="section_title_container text-center">
-						<h2 class="section_title">Popular Online Courses</h2>
-						<div class="section_subtitle"><p>Our Aim Is to Provide Quality Education Following  the Footsteps of Saylani Mass IT Traning Program </p></div>
+						<h2 class="section_title">Chapter 43-48 Assignments</h2>
+						<h3 class="section_title">We Will Cover Events in  this phase</h3>
+						<h2 class="section_title">PROGRAM-1</h2>
+						<h5 class="section_title"><a href="#" onClick="alert('Hi');">Click Here to popup alertbox</a></h5>
+
 					</div>
 				</div>
 			</div>
+			<div class="row">
+				<div class="col">
+					<div class="section_title_container text-center">
+						<h2 class="section_title">Program-2</h2>
+						
+					</div>
+				</div>
+			</div>
+
+			
 			<div class="row courses_row">
 				
 				<!-- Course -->
 				<div class="col-lg-4 course_col">
+		
 					<div class="course">
-						<div class="course_image"><img src="IMAGES/course_1.jpg" alt=""></div>
+						<div class="course_image"><img src="IMAGES/course_1.jpg" onClick="alert('Thanks for Purchaing Mobile-A!');"
+							alt=""></div>
 						<div class="course_body">
-							<h3 class="course_title"><a href="course.html">Python Core Programming</a></h3>
-							<div class="course_teacher">Mr. Sir Ali Mughal</div>
-							<div class="course_text">
-								<p>This is Python  learning Course From Scratch  With Core Python Programming</p>
-							</div>
+							<h3 class="course_title"><a href="course.html">Mobile-A</a></h3>
+							
+							
 						</div>
-						<div class="course_footer">
-							<div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
-								<div class="course_info">
-									<i class="fa fa-graduation-cap" aria-hidden="true"></i>
-									<span>Thousands Student</span>
-								</div>
-								<div class="course_info">
-									<i class="fa fa-star" aria-hidden="true"></i>
-									<span>5 Ratings</span>
-								</div>
-								<div class="course_price ml-auto">Free </div>
-							</div>
-						</div>
+						
 					</div>
 				</div>
 
 				<!-- Course -->
 				<div class="col-lg-4 course_col">
 					<div class="course">
-						<div class="course_image"><img src="IMAGES/course_2.jpg" alt=""></div>
+						<div class="course_image"><img src="IMAGES/course_2.jpg" onClick="alert('Thanks for Purchaing Mobile-B!');" alt=""></div>
 						<div class="course_body">
-							<h3 class="course_title"><a href="course.html">Developing Mobile Apps</a></h3>
-							<div class="course_teacher">Ms. Sir Ali Mughal</div>
-							<div class="course_text">
-								<p>this is toughest of course and blend of  many modern teachnologies it includes HTML, CSS, REACTJS ,Firebase hosting and Most importantly Publishing and pushing code on githun</p>
-							</div>
+							<h3 class="course_title"><a href="course.html">Mobile-B</a></h3>
+							
 						</div>
-						<div class="course_footer">
-							<div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
-								<div class="course_info">
-									<i class="fa fa-graduation-cap" aria-hidden="true"></i>
-									<span>2K Student</span>
-								</div>
-								<div class="course_info">
-									<i class="fa fa-star" aria-hidden="true"></i>
-									<span>5 Ratings</span>
-								</div>
-								<div class="course_price ml-auto">Free</div>
-							</div>
-						</div>
+						
 					</div>
 				</div>
 
 				<!-- Course -->
 				<div class="col-lg-4 course_col">
 					<div class="course">
-						<div class="course_image"><img src="IMAGES/course_3.jpg" alt=""></div>
+						<div class="course_image"><img src="IMAGES/course_3.jpg" onClick="alert('Thanks for Purchaing Mobile-c!');"alt=""></div>
 						<div class="course_body">
-							<h3 class="course_title"><a href="course.html">Graphics Designing</a></h3>
-							<div class="course_teacher">Mr. Raheel Gulraiz</div>
-							<div class="course_text">
-								<p>this is basic to expert level course which include Adobe Illustrator , Photoshop</p>
-							</div>
+							<h3 class="course_title"><a href="course.html">Mobile-C</a></h3>
+							
 						</div>
-						<div class="course_footer">
-							<div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
-								<div class="course_info">
-									<i class="fa fa-graduation-cap" aria-hidden="true"></i>
-									<span>1K Student</span>
-								</div>
-								<div class="course_info">
-									<i class="fa fa-star" aria-hidden="true"></i>
-									<span>5 Ratings</span>
-								</div>
-								<div class="course_price ml-auto"><span>$0</span>Free/div>
-							</div>
+						
 						</div>
 					</div>
 				</div>
 
-			</div>
-			<div class="row">
-				<div class="col">
-					<div class="courses_button trans_200"><a href="#">view all courses</a></div>
+				<div class="row">
+					<div class="col">
+						<div class="section_title_container text-center">
+							<h2 class="section_title">PROGRAM-3</h2>
+							<h5 class="section_title">
+								<table id="myTable">
+									<tr>
+										<td style="font-size: 72px;">Index</td>
+										<td style="font-size: 72px;">Name</td>
+										<td style="font-size: 72px;">Class</td>
+									</tr>
+									<tr>
+										<td style="font-size: 72px;">0</td>
+										<td style="font-size: 72px;">Ali</td>
+										<td style="font-size: 72px;">9</td>
+										<td style="font-size: 72px;"><button onclick="myDeleteFunction()">Delete</button></td>
+									</tr>
+									<br>
+									<tr>
+										<td style="font-size: 72px;">1</td>
+										<td style="font-size: 72px;">Imran</td>
+										<td style="font-size: 72px;">2</td>
+										<td style="font-size: 72px;"><button onclick="myDeleteFunction()">Delete</button></td>
+									</tr>
+									<br>
+									<tr>
+										<td style="font-size: 72px;">2</td>
+										<td style="font-size: 72px;">Ayesha</td>
+										<td style="font-size: 72px;">3</td>
+										<td style="font-size: 72px;"><button onclick="myDeleteFunction()">Delete</button></td>
+									</tr>
+									<br>
+									<tr>
+										<td style="font-size: 72px;">3</td>
+										<td style="font-size: 72px;">Ahmed</td>
+										<td style="font-size: 72px;">4</td>
+										<td style="font-size: 72px;"><button onclick="myDeleteFunction()">Delete</button></td>
+									</tr>
+									  
+								</table>
+								<script>
+									function myDeleteFunction() 
+									{
+									  document.getElementById("myTable").deleteRow(0);
+									  
+									}
+								</script>
+							</h5>
+							
+	
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div class="col">
+						<div class="section_title_container text-center">
+							<h2 class="section_title">PROGRAM-5</h2>
+							<h5 class="section_title">
+								<table id="myTable">
+									<br>
+									<br>
+									<tr>
+										<!-- <input type="button"  style="font-size: 72px;" value="Plus Counter" id="inc" onclick="incNumber()"/>
+										
+
+										<label id="display" style="font-size: 72px;" ></label> -->
+
+																				
+										<h3>Click Counter</h3>
+    									<button id="clickme1" style="font-size: 72px;">Click me+: 0</button>
+										<br>
+										<br>
+
+										
+									</tr>
+									<!-- <tr>
+										<input type="button" style="font-size: 72px;" value="Minus Countee" id="dec" onclick="decNumber()"/></td>
+										<label id="display" style="font-size: 72px;" ></label> -->
+
+										<h3>Click Counter</h3>
+										<button id="clickme2" style="font-size: 72px;">Click me-: 0</button>
+									</tr>
+									<br>
+								
+									  
+								</table>
+										<h1>CHAPTER 49 TO 52</h1>
+										<br>
+										<br>
+										<br>
+										
+										
+
+								<div class="row">
+									<div class="col">
+										<div class="section_title_container text-center">
+											<h2 class="section_title">PROGRAM-1</h2>
+											<h5 class="section_title">
+												<table id="myTable">
+													<br>
+													<br>
+													<tr>
+														<h2>Modal Signup Form</h2>
+
+													<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+
+													<div id="id01" class="modal">
+													<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+													<form class="modal-content" action="#">
+														<div class="container">
+														<h1>Sign Up</h1>
+														<p>Please fill in this form to create an account.</p>
+														<hr>
+														<label for="email"><b>Email</b></label>
+														<input type="text" placeholder="Enter Email" name="email" required>
+
+														<label for="psw"><b>Password</b></label>
+														<input type="password" placeholder="Enter Password" name="psw" required>
+
+														<label for="psw-repeat"><b>Repeat Password</b></label>
+														<input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+														
+														<label>
+															<input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+														</label>
+
+														<p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+														<div class="clearfix">
+															<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+															<button type="submit" class="signupbtn">Sign Up</button>
+														</div>
+														</div>
+													</form>
+													</div>
+				
+														
+													</tr>
+													<div class="row">
+														<div class="col">
+															<div class="section_title_container text-center">
+																<h2 class="section_title">PROGRAM-2</h2>
+																<h5 class="section_title">
+																	<table id="myTable">
+																		<br>
+																		<br>
+																		<tr>
+																			
+																			<h2>Read More Read Less Button</h2>
+																			<p style="font-size: 72px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+																			<button onclick="myFunction()" id="myBtn">Read more</button>
+																			
+																			
+																		</tr>
+																		
+																		<br>
+																		<tr>
+																			
+																			<form>
+																				<h1>Sign Up</h1>
+																				<p>Please fill in this form to create an account.</p>
+																				<label for="email"><b>Email</b></label>
+																				<input type="text" id="email" placeholder="Enter Email" name="email" required>
+						
+																				<label for="psw"><b>Password</b></label>
+																				<input type="password" id="pass" placeholder="Enter Password" name="psw" required>
+						
+																				<label for="psw-repeat"><b>Repeat Password</b></label>
+																				<input type="password" id="cfmpass" placeholder="Repeat Password" name="psw-repeat" required>
+																				
+																				<label>
+																					<input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+																				</label>
+						
+																				<p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+						
+																				<!--  -->
+																				<input style="font-size: 72px;" type="button" value="SignUp" id="btnSubmit" onclick="testVariable()">
+																			</form>
+																			<div>
+
+                                                                                <div id="wrapper">
+                                                                                    <table align='center' cellspacing=2 cellpadding=5 id="data_table" border=1>
+                                                                                    <tr>
+                                                                                    <!-- <th>Name</th>
+                                                                                    <th>Country</th>
+																					<th>Age</th> -->
+																					
+																										
+
+
+
+                                                                                    </tr>
+                                                                                    
+                                                                                    <tr id="row1">
+                                                                                    <td id="name_row1">Ankit</td>
+                                                                                    <td id="country_row1">India</td>
+                                                                                    <td id="age_row1">20</td>
+                                                                                    <td>
+                                                                                    <input type="button" id="edit_button1" value="Edit" class="edit" onclick="edit_row('1')">
+                                                                                    <input type="button" id="save_button1" value="Save" class="save" onclick="save_row('1')">
+                                                                                    <input type="button" value="Delete" class="delete" onclick="delete_row('1')">
+                                                                                    </td>
+                                                                                    </tr>
+                                                                                    
+                                                                                    <tr id="row2">
+                                                                                    <td id="name_row2">Shawn</td>
+                                                                                    <td id="country_row2">Canada</td>
+                                                                                    <td id="age_row2">26</td>
+                                                                                    <td>
+                                                                                    <input type="button" id="edit_button2" value="Edit" class="edit" onclick="edit_row('2')">
+                                                                                    <input type="button" id="save_button2" value="Save" class="save" onclick="save_row('2')">
+                                                                                    <input type="button" value="Delete" class="delete" onclick="delete_row('2')">
+                                                                                    </td>
+                                                                                    </tr>
+                                                                                    
+                                                                                    <tr id="row3">
+                                                                                    <td id="name_row3">Rahul</td>
+                                                                                    <td id="country_row3">India</td>
+                                                                                    <td id="age_row3">19</td>
+                                                                                    <td>
+                                                                                    <input type="button" id="edit_button3" value="Edit" class="edit" onclick="edit_row('3')">
+                                                                                    <input type="button" id="save_button3" value="Save" class="save" onclick="save_row('3')">
+                                                                                    <input type="button" value="Delete" class="delete" onclick="delete_row('3')">
+                                                                                    </td>
+                                                                                    </tr>
+                                                                                    
+                                                                                    <tr>
+                                                                                    <td><input type="text" id="new_name"></td>
+                                                                                    <td><input type="text" id="new_country"></td>
+                                                                                    <td><input type="text" id="new_age"></td>
+                                                                                    <td><input type="button" class="add" onclick="add_row();" value="Add Row"></td>
+                                                                                    </tr>
+                                                                                    
+                                                                                    </table>
+                                                                                    </div>
+                                                                                    
+                                                                                    <button id="btnAddd">New
+
+                                                                                    </button> <table id="tblData"> <thead> <tr> <th>Name</th> <th>Phone</th> <th>Email</th> <th></th> </tr> </thead> <tbody> </tbody> </table>
+
+                                                                                    
+
+
+
+
+
+
+
+<!-- 
+                                                                                <div id="dialog-form" title="Create new user">
+                                                                                    <p class="validateTips">All form fields are required.</p>
+                                                                                    <form>
+                                                                                        <fieldset>
+                                                                                            <label for="first_name">First Name</label>
+                                                                                            <select id="first-name">
+                                                                                                <option value="1">Arun</option>
+                                                                                                <option value="2">Ganesh</option>
+                                                                                                <option value="3">Suresh</option>
+                                                                                                <option value="4">Sanganabasu</option>
+                                                                                            </select>
+                                                                                            <label for="last_name">Last Name</label>
+                                                                                            <select id="last-name">
+                                                                                                <option value="1">Hulagabal</option>
+                                                                                                <option value="2">Cheemalamudi</option>
+                                                                                                <option value="3">Ganiger</option>
+                                                                                                <option value="4">Kattriguppe</option>
+                                                                                            </select>
+                                                                                            <label for="email">Email</label>
+                                                                                            <input type="text" name="email" id="email" value="" class="text ui-widget-content ui-corner-all"
+                                                                                            />
+                                                                                            <label for="password">Password</label>
+                                                                                            <input type="password" name="password" id="password" value=""
+                                                                                            class="text ui-widget-content ui-corner-all" />
+                                                                                        </fieldset>
+                                                                                    </form>
+                                                                                </div>
+                                                                                <div id="users-contain" class="ui-widget">
+                                                                                        <h1>Existing Users:</h1>
+                                                                        
+                                                                                    <table id="users" class="ui-widget ui-widget-content">
+                                                                                        <thead>
+                                                                                            <tr class="ui-widget-header ">
+                                                                                                <th>Name</th>
+                                                                                                <th>Email</th>
+                                                                                                <th>Password</th>
+                                                                                                <th>Actions</th>
+                                                                                            </tr>
+                                                                                        </thead>
+                                                                                        <tbody>
+                                                                                            <tr>
+                                                                                                <td class="custom-name">John Doe</td>
+                                                                                                <td>john.doe@example.com</td>
+                                                                                                <td>johndoe1</td>
+                                                                                                <td><a class="edit" href="">Edit</a>
+                                                                        
+                                                                                                </td>
+                                                                                                <td><span class="delete"><a href="">Delete</a></span>
+                                                                        
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </div>
+                                                                                <button id="create-user">Create new user</button>
+
+
+
+
+
+ <!-- Trigger/Open The Modal
+ <div style="background-color:#0F0F8C ;height:45px">
+    <h2 style="color: white">LOGO</h2>
+  </div>
+  <div>
+    <button id="myBtn">&emsp;+ Add Task &emsp;</button>
+  </div>
+  <div>
+    <table id="tasksTable">
+      <thead>
+        <tr style="background-color:rgba(201, 196, 196, 0.86)">
+          <th style="width: 150px;">Name</th>
+          <th style="width: 250px;">Desc</th>
+          <th style="width: 120px">Date</th>
+          <th style="width: 120px class=fa fa-trash"></th>
+        </tr>
+
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  The Modal -->
+  <!-- <div id="myModal" class="modal"> -->
+
+    <!-- Modal content -->
+    <!-- <div class="modal-content">
+
+      <div class="modal-header">
+
+        <span class="close">&times;</span>
+        <h3> Add Task</h3>
+      </div>
+
+      <div class="modal-body">
+        <table style="padding: 28px 50px">
+          <tr>
+            <td style="width:150px">Name:</td>
+            <td><input type="text" name="name" id="taskname" style="width: -webkit-fill-available"></td>
+          </tr>
+          <tr>
+            <td>
+              Desc:
+            </td>
+            <td>
+              <textarea name="desc" id="taskdesc" cols="60" rows="10"></textarea>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="modal-footer">
+        <button type="submit" value="submit" style="float: right;" onclick="addTasks()">SUBMIT</button>
+        <br>
+        <br>
+        <br>
+      </div>
+
+    </div>
+  </div>  -->
+                                                                                <tr>
+                                                                                    <td style="font-size: 36px;">Index</td>
+                                                                                    <td style="font-size: 36px;">Email</td>
+                                                                                    <td style="font-size: 36px;">Password</td>
+                                                                                    <td style="font-size: 36px;">Cfm-Password</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td style="font-size: 36px;">0</td>
+                                                                                    <td style="font-size: 36px;"><p id="p1"></p></td>
+                                                                                    <td style="font-size: 36px;"><p id="p2"></p></td>
+                                                                                    <td style="font-size: 36px;"><p id="p3"></p></td>
+                                                                                    <td style="font-size: 36px;"><button onclick="myDeleteFunction()">Delete</button></td>
+                                                                                </tr> -->
+																			
+																				<p id="p1"></p>
+																			
+																			
+																				<p id="p2"></p>
+																			
+																		
+																				<p id="p3"></p>
+																			
+																			<div>
+																			
+																		</tr>
+
+
+																		<div class="row">
+																			<div class="col">
+																				<div class="section_title_container text-center">
+																					<h2 class="section_title">Assignment-58  67</h2>
+																					<h5 class="section_title">
+																						<table id="myTable">
+																							<br>
+																							<br>
+																							<tr>
+																								<div>
+																									<h1> DOM </h1>
+																									<div id=”form-content” class=”content”>
+																									<label for=”first-name”>First Name</label>
+																									<input type=”text” id=”first-name” />
+																									<label for=”last-name”>Last Name</label>
+																									<input type=”text” id=”last-name” />
+																									<label for=”email”>Email</label>
+																									<input type=”text” id=”email” />
+																									</div>
+																									<div id=”main-content” class=”content”>
+																									<p class=”render”> First Name : Alex</p>
+																									<p class=”render” id=”lastName”>Last Name: Bank</p>
+																									<p class=”render”> Email : alexbank@example.com</p>
+																									<p class=”render”> Country : Pakistan </p>
+																									<p class=”render”> contact : +92 300 1234567</p>
+																									</div>
+																									</div>
+																								<div>
+
+																									<p id="pemail"></p>
+																			
+																			
+																									<p id="pfname"></p>
+																			
+																		
+																									<p id="plname"></p>
+																								</div>
+																									
+																							
+																							</tr>
+																							<br>
+																						
+													
+													  
+												</table>
+
+
+
+
+
+
+
+
+                               
+                                <script type="text/javascript">
+
+
+function Add(){ $("#tblData tbody").append( "<tr>"+ "<td><input type='text'/></td>"+ "<td><input type='text'/></td>"+ "<td><input type='text'/></td>"+ "<td><img src='images/disk.png' class='btnSave'><img src='images/delete.png' class='btnDelete'/></td>"+ "</tr>"); $(".btnSave").bind("click", Save); $(".btnDelete").bind("click", Delete); };
+
+function Save(){ var par = $(this).parent().parent(); //tr
+     var tdName = par.children("td:nth-child(1)"); var tdPhone = par.children("td:nth-child(2)"); var tdEmail = par.children("td:nth-child(3)"); var tdButtons = par.children("td:nth-child(4)"); tdName.html(tdName.children("input[type=text]").val()); tdPhone.html(tdPhone.children("input[type=text]").val()); tdEmail.html(tdEmail.children("input[type=text]").val()); tdButtons.html("<img src='images/delete.png' class='btnDelete'/><img src='images/pencil.png' class='btnEdit'/>"); $(".btnEdit").bind("click", Edit); $(".btnDelete").bind("click", Delete); };
+
+function Edit(){ var par = $(this).parent().parent(); //tr
+     var tdName = par.children("td:nth-child(1)"); var tdPhone = par.children("td:nth-child(2)"); var tdEmail = par.children("td:nth-child(3)"); var tdButtons = par.children("td:nth-child(4)"); tdName.html("<input type='text' id='txtName' value='"+tdName.html()+"'/>"); tdPhone.html("<input type='text' id='txtPhone' value='"+tdPhone.html()+"'/>"); tdEmail.html("<input type='text' id='txtEmail' value='"+tdEmail.html()+"'/>"); tdButtons.html("<img src='images/disk.png' class='btnSave'/>"); $(".btnSave").bind("click", Save); $(".btnEdit").bind("click", Edit); $(".btnDelete").bind("click", Delete); };
+
+
+function Delete(){ var par = $(this).parent().parent(); //tr 
+    par.remove(); };
+
+$(function(){ //Add, Save, Edit and Delete functions code
+     $(".btnEdit").bind("click", Edit); $(".btnDelete").bind("click", Delete); $("#btnAdd").bind("click", Add); });
+
+
+
+
+
+
+
+
+
+function edit_row(no)
+{
+ document.getElementById("edit_button"+no).style.display="none";
+ document.getElementById("save_button"+no).style.display="block";
+	
+ var name=document.getElementById("name_row"+no);
+ var country=document.getElementById("country_row"+no);
+ var age=document.getElementById("age_row"+no);
+	
+ var name_data=name.innerHTML;
+ var country_data=country.innerHTML;
+ var age_data=age.innerHTML;
+	
+ name.innerHTML="<input type='text' id='name_text"+no+"' value='"+name_data+"'>";
+ country.innerHTML="<input type='text' id='country_text"+no+"' value='"+country_data+"'>";
+ age.innerHTML="<input type='text' id='age_text"+no+"' value='"+age_data+"'>";
+}
+
+function save_row(no)
+{
+ var name_val=document.getElementById("name_text"+no).value;
+ var country_val=document.getElementById("country_text"+no).value;
+ var age_val=document.getElementById("age_text"+no).value;
+
+ document.getElementById("name_row"+no).innerHTML=name_val;
+ document.getElementById("country_row"+no).innerHTML=country_val;
+ document.getElementById("age_row"+no).innerHTML=age_val;
+
+ document.getElementById("edit_button"+no).style.display="block";
+ document.getElementById("save_button"+no).style.display="none";
+}
+
+function delete_row(no)
+{
+ document.getElementById("row"+no+"").outerHTML="";
+}
+
+function add_row()
+{
+ var new_name=document.getElementById("new_name").value;
+ var new_country=document.getElementById("new_country").value;
+ var new_age=document.getElementById("new_age").value;
+	
+ var table=document.getElementById("data_table");
+ var table_len=(table.rows.length)-1;
+ var row = table.insertRow(table_len).outerHTML="<tr id='row"+table_len+"'><td id='name_row"+table_len+"'>"+new_name+"</td><td id='country_row"+table_len+"'>"+new_country+"</td><td id='age_row"+table_len+"'>"+new_age+"</td><td><input type='button' id='edit_button"+table_len+"' value='Edit' class='edit' onclick='edit_row("+table_len+")'> <input type='button' id='save_button"+table_len+"' value='Save' class='save' onclick='save_row("+table_len+")'> <input type='button' value='Delete' class='delete' onclick='delete_row("+table_len+")'></td></tr>";
+
+ document.getElementById("new_name").value="";
+ document.getElementById("new_country").value="";
+ document.getElementById("new_age").value="";
+}
+
+
+
+
+
+
+
+
+// var myBooks = [
+//         {
+//             "Book ID": "1",
+//             "Book Name": "Computer Architecture",
+//             "Category": "Computers",
+//             "Price": "125.60"
+//         },
+//         {
+//             "Book ID": "2",
+//             "Book Name": "Asp.Net 4 Blue Book",
+//             "Category": "Programming",
+//             "Price": "56.00"
+//         },
+//         {
+//             "Book ID": "3",
+//             "Book Name": "Popular Science",
+//             "Category": "Science",
+//             "Price": "210.40"
+//         }
+//     ]
+// var table = document.createElement('table');
+// var thead = document.createElement('thead');
+// var tbody = document.createElement('tbody');
+// table.append(thead);
+// table.append(tbody);
+
+// var headers = Object.keys(myBooks[0]);
+// var headTr = document.createElement('tr');
+// tbody.append(headTr);
+
+// headers.forEach(function(header) {
+//   var th = document.createElement('th');
+//   th.textContent = header;
+//   headTr.append(th);
+// });
+
+// myBooks.forEach(function(book) {
+//   var tr = document.createElement('tr');
+//   tbody.append(tr);
+//   headers.forEach(function(bookKey) {
+//     var td = document.createElement('td');
+//     td.textContent = book[bookKey];
+//     tr.append(td);
+//   });
+// });
+// document.getElementsByTagName('body')[0].append(table);
+                                
+
+//                                 $(function () {
+
+// var new_dialog = function (type, row) {
+//     var dlg = $("#dialog-form").clone();
+//     var fname = dlg.find(("#first-name")),
+//         lname = dlg.find(("#last-name")),
+//         email = dlg.find(("#email")),
+//         password = dlg.find(("#password"));
+//     type = type || 'Create';
+//     var config = {
+//         autoOpen: true,
+//         height: 300,
+//         width: 350,
+//         modal: true,
+//         buttons: {
+//             "Create an account": save_data,
+//                 "Cancel": function () {
+//                 dlg.dialog("close");
+//             }
+//         },
+//         close: function () {
+//             dlg.remove();
+//         }
+//     };
+//     if (type === 'Edit') {
+//         config.title = "Edit User";
+//         get_data();
+//         delete(config.buttons['Create an account']);
+//         config.buttons['Edit account'] = function () {
+//             row.remove();
+//             save_data();
+
+//         };
+
+//     }
+//     dlg.dialog(config);
+
+//     function get_data() {
+//         var _email = $(row.children().get(1)).text(),
+//             _password = $(row.children().get(2)).text();
+//         email.val(_email);
+//         password.val(_password);
+
+//     }
+
+//     function save_data() {
+//         $("#users tbody").append("<tr>" + "<td>" + (fname.find("option:selected").text() + ' ').concat(lname.find("option:selected").text()) + "</td>" + "<td>" + email.val() + "</td>" + "<td>" + password.val() + "</td>" + "<td><a href='' class='edit'>Edit</a></td>" + "<td><span class='delete'><a href=''>Delete</a></span></td>" + "</tr>");
+//         dlg.dialog("close");
+//     }
+// };
+
+// $(document).on('click', 'span.delete', function () {
+//     $(this).closest('tr').find('td').fadeOut(1000,
+
+//     function () {
+//         // alert($(this).text());
+//         $(this).parents('tr:first').remove();
+//     });
+
+//     return false;
+// });
+// $(document).on('click', 'td a.edit', function () {
+//     new_dialog('Edit', $(this).parents('tr'));
+//     return false;
+// });
+
+// $("#create-user").button().click(new_dialog);
+
+// });
+
+
+
+
+
+
+									function myDeleteFunction() 
+									{
+									  document.getElementById("myTable").deleteRow(0);
+									  
+									}
+									
+
+									//signup form javascript  code
+									//signup form code start here
+									// Get the modal
+									var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+									window.onclick = function(event) {
+									if (event.target == modal) {
+										modal.style.display = "none";
+									}
+									}
+									//signup form code ends here
+
+									// var i = 0;
+
+									// function incNumber() {
+									// 	if (i < 1000) {
+									// 		i++;
+									// 	} else if (i = 1000) {
+									// 		i = 0;
+									// 	}
+									// 	document.getElementById("display").innerHTML = i;
+									// }
+
+									// function decNumber() {
+									// 	if (i > 0) {
+									// 		--i;
+									// 	} else if (i = 0) {
+									// 		i = 10;
+									// 	}
+									// 	document.getElementById("display").innerHTML = i;
+									// }
+
+									var button1 = document.getElementById("clickme1"),
+									count = 0;
+									button1.onclick = function() {
+									count += 1;
+									button1.innerHTML = "Click me+: " + count;
+									};
+									var button = document.getElementById("clickme2"),
+									count = 0;
+									button.onclick = function() {
+									count -= 1;
+									button.innerHTML = "Click me-: " + count;
+									};
+																			
+
+
+
+									//program-2
+
+									function myFunction() {
+									var dots = document.getElementById("dots");
+									var moreText = document.getElementById("more");
+									var btnText = document.getElementById("myBtn");
+
+									if (dots.style.display === "none") {
+										dots.style.display = "inline";
+										btnText.innerHTML = "Read more"; 
+										moreText.style.display = "none";
+									} else {
+										dots.style.display = "none";
+										btnText.innerHTML = "Read less"; 
+										moreText.style.display = "inline";
+									}
+									}
+
+
+									//prograsm.3
+
+									function testVariable() {
+								
+									var strText = document.getElementById("email").value;
+									var strText1 = document.getElementById("pass").value;
+									var strText2 = document.getElementById("cfmpass").value;
+									document.getElementById("p1").innerHTML = strText;
+									document.getElementById("p2").innerHTML = strText1;
+									document.getElementById("p3").innerHTML = strText2;
+        							}
+
+
+
+
+                                    var tasks = [];
+                                    var descs = [];
+
+                                    // Get the modal
+                                    var modal = document.getElementById('myModal');
+
+                                    // Get the button that opens the modal
+                                    var btn = document.getElementById("myBtn");
+
+                                    // Get the <span> element that closes the modal
+                                    var span = document.getElementsByClassName("close")[0];
+
+                                    // When the user clicks the button, open the modal 
+                                    btn.onclick = function() {
+                                    modal.style.display = "block";
+                                    }
+
+                                    // When the user clicks on <span> (x), close the modal
+                                    span.onclick = function() {
+                                    modal.style.display = "none";
+                                    }
+
+                                    // When the user clicks anywhere outside of the modal, close it
+                                    window.onclick = function(event) {
+                                    if (event.target == modal) {
+                                        modal.style.display = "none";
+                                    }
+                                    }
+                                    var rowCount = 1;
+
+                                    function addTasks() {
+                                    var temp = 'style .fa fa-trash';
+                                    tasks.push(document.getElementById("taskname").value);
+                                    descs.push(document.getElementById("taskdesc").value);
+                                    var table = document.getElementById("tasksTable");
+                                    var row = table.insertRow(rowCount);
+                                    var cell1 = row.insertCell(0);
+                                    var cell2 = row.insertCell(1);
+                                    var cell3 = row.insertCell(2);
+                                    var cell4 = row.insertCell(3);
+                                    cell1.innerHTML = tasks[rowCount - 1];
+                                    cell2.innerHTML = descs[rowCount - 1];
+                                    cell3.innerHTML = getDate();
+                                    cell4.innerHTML = '<td class="fa fa-trash"></td>';
+                                    rowCount++;
+                                    modal.style.display = "none";
+                                    }
+
+
+                                    function getDate() {
+                                    var today = new Date();
+                                    var dd = today.getDate();
+                                    var mm = today.getMonth() + 1; //January is 0!
+
+                                    var yyyy = today.getFullYear();
+
+                                    if (dd < 10) {
+                                        dd = '0' + dd;
+                                    }
+                                    if (mm < 10) {
+                                        mm = '0' + mm;
+                                    }
+                                    var today = dd + '-' + mm + '-' + yyyy.toString().slice(2);
+                                    return today;
+                                    }
+
+
+
+
+								//ASSIGNMENT 58  67
+
+								// function testVariable() {
+								
+								// var strText = document.getElementById("email").value;
+								// var strText1 = document.getElementById("pass").value;
+								// var strText2 = document.getElementById("cfmpass").value;
+								// document.getElementById("p1").innerHTML = strText;
+								// document.getElementById("p2").innerHTML = strText1;
+								// document.getElementById("p3").innerHTML = strText2;
+								// }
+								var eml = document.getElementById("email").value;
+								var fname = document.getElementById("first-name").value;
+								var lname = document.getElementById("lastname").value;
+								var main_cont=document.getElementById("main-content");
+								var childs=main_cont.children.length
+
+								document.getElementById("pemail").innerHTML=eml;
+								document.getElementById("pfname").innerHTML = fname;
+								document.getElementById("plname").innerHTML = lname;
+								
+
+								</script>
+							
+							</h5>
+							
+	
+						</div>
+					</div>
+				</div>
+
+
+				
+
+
+	<div class="row courses_row">
+				
+		<!-- Course -->
+		<div class="col-lg-4 course_col">
+			<div class="course">
+				<div class="course_image"><img src="IMAGES/course_1.jpg" alt=""></div>
+				<div class="course_body">
+					<h3 class="course_title"><a href="course.html">Python Core Programming</a></h3>
+					<div class="course_teacher">Mr. Sir Ali Mughal</div>
+					<div class="course_text">
+						<p>This is Python  learning Course From Scratch  With Core Python Programming</p>
+					</div>
+				</div>
+				<div class="course_footer">
+					<div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
+						<div class="course_info">
+							<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+							<span>Thousands Student</span>
+						</div>
+						<div class="course_info">
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<span>5 Ratings</span>
+						</div>
+						<div class="course_price ml-auto">Free </div>
+					</div>
 				</div>
 			</div>
 		</div>
+
+		<!-- Course -->
+		<div class="col-lg-4 course_col">
+			<div class="course">
+				<div class="course_image"><img src="IMAGES/course_2.jpg" alt=""></div>
+				<div class="course_body">
+					<h3 class="course_title"><a href="course.html">Developing Mobile Apps</a></h3>
+					<div class="course_teacher">Ms. Sir Ali Mughal</div>
+					<div class="course_text">
+						<p>this is toughest of course and blend of  many modern teachnologies it includes HTML, CSS, REACTJS ,Firebase hosting and Most importantly Publishing and pushing code on githun</p>
+					</div>
+				</div>
+				<div class="course_footer">
+					<div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
+						<div class="course_info">
+							<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+							<span>2K Student</span>
+						</div>
+						<div class="course_info">
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<span>5 Ratings</span>
+						</div>
+						<div class="course_price ml-auto">Free</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Course -->
+		<div class="col-lg-4 course_col">
+			<div class="course">
+				<div class="course_image"><img src="IMAGES/course_3.jpg" alt=""></div>
+				<div class="course_body">
+					<h3 class="course_title"><a href="course.html">Graphics Designing</a></h3>
+					<div class="course_teacher">Mr. Raheel Gulraiz</div>
+					<div class="course_text">
+						<p>this is basic to expert level course which include Adobe Illustrator , Photoshop</p>
+					</div>
+				</div>
+				<div class="course_footer">
+					<div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
+						<div class="course_info">
+							<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+							<span>1K Student</span>
+						</div>
+						<div class="course_info">
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<span>5 Ratings</span>
+						</div>
+						<div class="course_price ml-auto"><span>$0</span>Free/div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 	</div>
-
-
+	<div class="row">
+		<div class="col">
+			<div class="courses_button trans_200"><a href="#">view all courses</a></div>
+		</div>
+	</div>
+</div>
+</div>
 
 
 
@@ -867,4 +1894,5 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
+<script src="app.js"></script>
 </html>
